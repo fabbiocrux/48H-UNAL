@@ -237,10 +237,24 @@ So..
 
 
 
+## Exemples of Patent databases
+
+##  Google Patents
+
+![](figures/UNAL/Google-patents.png){width=80% fig-align=center}
+
+[🔗 `https://patents.google.com/`](https://patents.google.com/){target="_blank"}
+
+##  Espacenet
+
+![](figures/UNAL/Espacenet.png){width=50% fig-align=center}
+
+[🔗 `https://worldwide.espacenet.com/`](https://worldwide.espacenet.com/){target="_blank"}
 
 
+##  Web Of Science Patent Database 
 
-##  Web Of Science Patent Database {#wos .notoc}
+>⚠️ For those Universities that have access!
 
 ##  Web Of Science Patent Database
 
