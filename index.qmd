@@ -89,11 +89,15 @@ Before, We need to understand how **Technology Emergency** is made ...
 # Flash Course: Technology Landscape
 
 
-## Technology Readiness → Maturity {.nostretch}
+## Technology Readiness → Maturity  {background-image="figures/00.png" background-size="65%" background-position="100% 50%" }
 
-The industrial emergence mapping framework.
+<br><br><br><br>
 
-![](figures/00.png){width=75% fig-align='center'}
+The industrial <br> emergence mapping framework 
+
+
+<br><br><br><br>
+<br><br><br><br>
 
 :::{.footer}
 Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. <br>A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
