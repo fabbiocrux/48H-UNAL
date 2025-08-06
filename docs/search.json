@@ -189,13 +189,6 @@
     "text": "Web of Science Interface → Filter Patents\n\n\n\n\n\n\n\nFilter the Patent based on a  *Criteria*"
   },
   {
-    "objectID": "index.html#sci-vos",
-    "href": "index.html#sci-vos",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "Vosviewer: Landscape  visualization",
-    "text": "Vosviewer: Landscape  visualization\nScientific Network visualization\n⬇️ https://www.vosviewer.com/"
-  },
-  {
     "objectID": "index.html#small-introduction-to-vosviewer",
     "href": "index.html#small-introduction-to-vosviewer",
     "title": "Flash Course:Technological watch and prospective",
@@ -284,83 +277,6 @@
     "href": "index.html#vosviewer-visualization-1",
     "title": "Flash Course:Technological watch and prospective",
     "section": "VOSviewer → Visualization 🙂",
-    "text": "VOSviewer → Visualization 🙂\n\n\n\n\n\n\nNetwork Visualization\n\n\n\n \n\n\nDensity Visualization"
-  },
-  {
-    "objectID": "index.html#vosviewer-analyzing-the-authors",
-    "href": "index.html#vosviewer-analyzing-the-authors",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "Vosviewer: Analyzing the Authors",
-    "text": "Vosviewer: Analyzing the Authors"
-  },
-  {
-    "objectID": "index.html#purpose-of-vosviewer-tool-1",
-    "href": "index.html#purpose-of-vosviewer-tool-1",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "Purpose of VOSviewer tool",
-    "text": "Purpose of VOSviewer tool\n\n🧠 Knowledge :\n\nUse the patent databases to unders a semantic world of your problematic based on the Authors of the patents.\n\n✍Competence :\n\nBe able to make a landscape visualisation of set of documents from a research question.\n\n\nWe use the database download from Web Of Science 📜"
-  },
-  {
-    "objectID": "index.html#vosviewer-as-made-before",
-    "href": "index.html#vosviewer-as-made-before",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → As made before",
-    "text": "VOSviewer → As made before\n\n\n\n\n\n\n🎯 Goal:\n\nLoad the Data\nCreate a CREATE\nAdd  Create a Map based on BIBLIOGRAPHIC data"
-  },
-  {
-    "objectID": "index.html#vosviewer-type-of-database-2",
-    "href": "index.html#vosviewer-type-of-database-2",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Type of database",
-    "text": "VOSviewer → Type of database\n\n\n\n\n\n\n\nSelect  Bibliographic database file\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-type-of-database-3",
-    "href": "index.html#vosviewer-type-of-database-3",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Type of database",
-    "text": "VOSviewer → Type of database\n\n\n\n\n\n\n\nSelect  Web Of Science\nSeek your &lt;Filename.txt&gt; on your PC\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-load-of-database-1",
-    "href": "index.html#vosviewer-load-of-database-1",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Load of database",
-    "text": "VOSviewer → Load of database\n\n\n\n\n\n\n\nSelect your  Co-Authorship &gt; Author\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-filters",
-    "href": "index.html#vosviewer-filters",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Filters",
-    "text": "VOSviewer → Filters\n\n\n\n\n\n\n\nAttention to the filters criteria\n\nMinimun of Documents\nCitations\n\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-counting",
-    "href": "index.html#vosviewer-counting",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Counting",
-    "text": "VOSviewer → Counting\n\n\n\n\n\n\n\nSelect  Binary Counting\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-authors-to-be-selected",
-    "href": "index.html#vosviewer-authors-to-be-selected",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Authors to be selected",
-    "text": "VOSviewer → Authors to be selected\n\n\n\n\n\n\n\nAdjuts the  Authors to be selected\n\n⚠️ Attention to the possible keywords that pass the filter\n\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-validation-of-connections",
-    "href": "index.html#vosviewer-validation-of-connections",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Validation of Connections",
-    "text": "VOSviewer → Validation of Connections\n\n\n\n\n\n\n\nPut YES\nNEXT"
-  },
-  {
-    "objectID": "index.html#vosviewer-authors-landscape",
-    "href": "index.html#vosviewer-authors-landscape",
-    "title": "Flash Course:Technological watch and prospective",
-    "section": "VOSviewer → Authors Landscape",
-    "text": "VOSviewer → Authors Landscape\n\n\n\n\n\n\nNetwork Visualization\n\n\n\n \n\n\nDensity Visualization\n\n\n\n\n\n\n\n\n\n\n\n \n\n\nMercadotecnia Innovacion e Emprendimiento 2025"
+    "text": "VOSviewer → Visualization 🙂\n\n\n\n\n\n\nNetwork Visualization\n\n\n\n \n\n\nDensity Visualization\n\n\n\n\n\n\n\n\n\n\n\n \n\n\nMercadotecnia Innovacion e Emprendimiento 2025"
   }
 ]
