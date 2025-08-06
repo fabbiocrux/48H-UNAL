@@ -23,13 +23,15 @@ format:
     number-sections: false
     fig-align: center
     theme: [default, theme/custom.scss]
-    logo: "figures/logos/Orion.png"
+    logo: "figures/logos/UNAL.png"
     header-logo: "figures/logos/ENSGSI.png"
-    header: '[Think Innovation Week 2025](#/TOC)'
+    header: '[Mercadotecnia Innovacion e Emprendimiento 2025](#/TOC)'
     slide-level: 3
     #subtitle-as-header: true
     footer: ' '
     chalkboard: false
+filters:
+  - reveal-header
 ---
 
 
@@ -168,6 +170,12 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 
 
+## UNAL → Scientific & Patent databases
+
+![](figures/UNAL/01.png){width="400" fig-align="center"}
+
+[`https://bases.unal.edu.co/`](https://bases.unal.edu.co/){target="_blank"}
+
 ## Web of science → Scientific & Patent databases
 
 ![](figures/logos/WoS.png){width="400" fig-align="left"}
@@ -186,8 +194,31 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 ## What does a patent look like?
 
-![](figures/Patent.png){fig-align="center" width="90%"}
+::: {.r-stack}
+![](figures/Patent-00.png){fig-align="center" width="80%"}
 
+
+![](figures/Patent.png){.fragment fig-align="center" width="90%"}
+:::
+
+## Why a patent is pertinent?
+
+
+![](figures/Patent-01.png){fig-align="center" width="80%"}
+
+
+# Goal for you 🦸‍♂ 🦸🏻‍♀️!
+
+>  **Exploration of Scientific/Patent databases**
+
+
+## Exploration of Scientific/Patent databases
+
+
+1. Go to Web of Science and make a research for Patents/Scientific Articles!
+1. Explore the domaine of patents using the WoS tools. 
+1. Select at least **1 pertinent patent** regarding your Idea!
+ at least **1 pertinent patent** regarding your Idea!
 
 ---
 
@@ -200,9 +231,9 @@ So..
 
 
 
-# Goal for Today
 
-## 
+
+
 
 ## Bibliometric mapping: Vosviewer
 
@@ -251,48 +282,15 @@ Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a compute
 :::{layout="[50,-2,50]" layout-valign="center"}
 :::{}
 
-- 
-[🔗 Access to UL <br>`https://ent.univ-lorraine.fr/`](https://ent.univ-lorraine.fr/){target="_blank"}
+1. 
+[🔗 Access to UL <br>`https://bases.unal.edu.co/`](https://bases.unal.edu.co/){target="_blank"}
 
-- Use your UL account to access
-
-:::
-
-![](figures/wos/UL-00.png){fig-align="center" width="60%"}
+2. Search for `Web Of Science` 
 
 :::
 
+![](figures/UNAL/01.png){fig-align="center" width="60%"}
 
-
-
-### WoS database → Access to the 'Ressources en Ligne'
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-- Acces to <br> [`Ressources en Ligne`](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
-
-- [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
-
-:::
-
-![](figures/01-UL-databases/01.png)
-
-:::
-
-
-
-### WoS database → UL Web of Science
-
-
-:::{layout="[40,-2,60]" layout-valign="center"}
-:::{}
-
-- Look for the 'Web of Science' database
-
-- [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
-:::
-![](figures/01-UL-databases/02.png)
 :::
 
 
