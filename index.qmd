@@ -70,7 +70,7 @@ URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
 
 
 
-# Pedagogical goal of this afternoon {.unnumbered}
+## Pedagogical goal of this afternoon {.unnumbered}
 
 
 1. 🧠 **Knowledge** : 
@@ -240,7 +240,7 @@ So..
 
 
 
-#  Web Of Science Patent Database {#wos}
+##  Web Of Science Patent Database {#wos .notoc}
 
 ##  Web Of Science Patent Database
 
@@ -416,7 +416,7 @@ This is all for this part 🙂
 
 
 
-# Vosviewer: <br>Landscape <br> visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
+## Vosviewer: <br>Landscape <br> visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
 
 Scientific Network visualization
 
@@ -624,7 +624,7 @@ Analysing *Patents Titles*
 :::
 
 
-# Vosviewer: Analyzing the Authors {.unnumbered}
+## Vosviewer: Analyzing the Authors {.unnumbered}
 
 ![](figures/author.jpg){fig-align="center"}
 
