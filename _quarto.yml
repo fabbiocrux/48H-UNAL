@@ -1,5 +1,5 @@
 project:
   type: website
   output-dir: docs
-fontsize: 50px
+fontsize: 45px
 

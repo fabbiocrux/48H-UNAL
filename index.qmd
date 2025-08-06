@@ -14,8 +14,7 @@ format:
     transition: none
     width: 1600
     height: 900
-#    css: ["theme/custom.scss"]
-#    theme: simple
+    css: ["theme/custom.scss"]
     echo: true
     toc: true
     toc-title: Agenda for today
@@ -92,10 +91,10 @@ Before, We need to understand how **Technology Emergency** is made ...
 
 The industrial emergence mapping framework.
 
-![](figures/00.png){width=100% fig-align='center'}
+![](figures/00.png){width=75% fig-align='center'}
 
 :::{.footer}
-Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. <br>A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
 :::
 
 ## Technology Readiness → Levels
@@ -129,17 +128,18 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 ## Technology Readiness → Evolution
 
 ::: {.r-stack}
-![](figures/NPD-0.png){width="900%" fig-align="center"}
+![](figures/NPD-0.png){width="70%" fig-align="right"}
 
-![](figures/NPD-1.png){.fragment .absolute width="500"  top=250 left=0}
 
-![](figures/NPD-2.png){.fragment width="500" fig-align="center"}
+![](figures/NPD-1.png){.fragment .absolute width="500"  top=100 left=0}
 
-![](figures/NPD-3.png){.fragment .absolute top=50 right=50 width="400" }
+![](figures/NPD-2.png){.fragment width="500" .absolute  top=150 left=0}
 
-![](figures/NPD-4.png){.fragment .absolute top=250 left=0 width="500" }
+![](figures/NPD-3.png){.fragment .absolute top=180 left=0 width="500" }
 
-![](figures/NPD-5.png){.fragment  width="800" fig-align="center"}
+![](figures/NPD-4.png){.fragment .absolute top=200 left=0 width="500" }
+
+![](figures/NPD-5.png){.fragment  .absolute top=210 left=0 width="500"}
 :::
 
 
