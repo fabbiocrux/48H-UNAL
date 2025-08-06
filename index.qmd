@@ -184,20 +184,9 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 
 
-## What is a Patent?
+## What does a patent look like?
 
-:::{layout="[45,-5,45]" layout-valign="top"}
-
-![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
-
-:::{}
-An overview on the space of patents enabling :  
-
-- Validating the relevance of your concepts 
-- Listing more cited patents 
-- Identifying key players (assignees) and links
-:::
-:::
+![](figures/Patent.png){fig-align="center" width="90%"}
 
 
 ---

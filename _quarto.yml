@@ -3,3 +3,7 @@ project:
   output-dir: docs
 fontsize: 45px
 
+website:
+  title: "My Website"
+  page-navigation: true
+  site-url: https://fabbiocrux.com/48h-unal
