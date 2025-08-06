@@ -1,0 +1,951 @@
+---
+title: "Flash Course:<br>**Technological watch and prospective**"
+subtitle: "Bibliometric Landscapes"  
+email: "cruzsanc1@univ-lorraine.fr"
+author: 
+  - "Prof. Mauricio CAMARGO"
+  - "Assist Prof. Fabio CRUZ"
+date: today
+date-format: long
+format: 
+  revealjs:
+    slide-number: c/t
+    controls: true
+    transition: none
+    width: 1600
+    height: 900
+#    css: ["theme/custom.scss"]
+#    theme: simple
+    echo: true
+    toc: true
+    toc-title: Agenda for today
+    toc-depth: 1
+    center: false
+    number-sections: false
+    fig-align: center
+    theme: [default, theme/custom.scss]
+    logo: "figures/logos/Orion.png"
+    header-logo: "figures/logos/ENSGSI.png"
+    header: '[Think Innovation Week 2025](#/TOC)'
+    slide-level: 3
+    #subtitle-as-header: true
+    sc-sb-title: false
+    footer: ' '
+    chalkboard: true
+filters:
+  - reveal-header
+---
+
+```{r setup, include=FALSE}
+# Load packages -----
+
+#install.packages('tidyverse')
+#install.packages('countdown')
+#install.packages('bibliometrix')
+
+
+
+#library(tidyverse)
+library(countdown)
+#library(bibliometrix)
+#biblioshiny()
+
+options(htmltools.dir.version = FALSE)
+knitr::opts_chunk$set(
+  fig.width=9, fig.height=3.5, fig.retina=3,
+  cache = FALSE,
+  echo = FALSE,
+  message = FALSE, 
+  warning = FALSE,
+  hiline = TRUE,
+  fig.align='center',
+  out.width = '75%' 
+)
+
+
+# Link for the Figures
+URL = c('https://raw.githubusercontent.com/fabbiocrux/Figures/main/')
+
+```
+
+
+
+
+# Where are we? {.unnumbered}
+
+::: {layout="[1,1]"}
+
+*The Dermatological Avatar*
+
+*Collecting clouds*
+
+:::
+
+::: {.r-fit-text}
+PESTEL 
+:::
+
+
+## Pedagogical goal of this afternoon {.unnumbered}
+
+:::{.callout-tip title="🚨 Goal of the Day"}
+
+**Select 3 Patents !!!**
+
+:::
+
+
+1. 🧠 **Knowledge** : 
+   - Use the patent databases to gain a **semantic world of your problematic**. 
+
+1. 🔨 **Know-how** : 
+   - Search on pertinent **patent and scientific databases** such as **WoS** 
+
+1. ✍**Competence**  : 
+   - Be able to make a **landscape visualisation** of set of documents from a research question.
+
+
+
+Before, We need to understand how **Technology Emergency** is made ...
+
+# Flash Course: Technology Landscape
+
+
+## Technology Readiness → Maturity {.nostretch}
+
+The industrial emergence mapping framework.
+
+![](figures/00.png){width=60% fig-align='center'}
+
+:::{.footer}
+Phaal, R., O’Sullivan, E., Routley, M., Ford, S., Probert, D., 2011. A framework for mapping industrial emergence. Technological Forecasting and Social Change 78, 217–230. [https://doi.org/10.1016/j.techfore.2010.06.018](https://doi.org/10.1016/j.techfore.2010.06.018)
+:::
+
+## Technology Readiness → Levels
+
+Framework developed in the Aeronautical field.
+
+![[Technology Readiness Levels (TRL)](https://www.esa.int/Enabling_Support/Space_Engineering_Technology/Shaping_the_Future/Technology_Readiness_Levels_TRL)](figures/TRL-00.png)
+
+## Technology Readiness → The Valley of Death
+
+![](figures/TRL-01.png){width="70%" fig-align="center"}
+
+::: footer
+Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
+:::
+
+## Technology Readiness → Challenges TRL4 - TRL7
+
+![](figures/TRL-03.png){width="70%" fig-align="center"}
+
+::: footer
+Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using building simulation for moving innovations across the "Valley of Death." REHVA Journal 52, 58--62.](https://www.researchgate.net/profile/Roel-Loonen/publication/276205251_Using_building_simulation_for_moving_innovations_across_the_Valley_of_Death/links/5552333108ae6fd2d81d4406/Using-building-simulation-for-moving-innovations-across-the-Valley-of-Death.pdf)
+:::
+
+## Technology Readiness → Challenges TRL4 - TRL7
+
+-   There is a **lack of tools** that can provide insights into **technology-integration** issues at an early R&D phase (TRL 1-5).
+-   This results in a **mismatch between information** need and availability and **complicates decision-making**.
+-   The process requires an **interdisciplinary approach**. The right combination of skills and expertise may not always be available
+
+## Technology Readiness → Evolution
+
+::: {.r-stack}
+![](figures/NPD-0.png){width="70%" fig-align="center"}
+
+![](figures/NPD-1.png){.fragment .absolute width="500"  top=250 left=0}
+
+![](figures/NPD-2.png){.fragment width="500" fig-align="center"}
+
+![](figures/NPD-3.png){.fragment .absolute top=50 right=50 width="400" }
+
+![](figures/NPD-4.png){.fragment .absolute top=250 left=0 width="500" }
+
+![](figures/NPD-5.png){.fragment  width="800" fig-align="center"}
+:::
+
+
+
+
+
+## Scientific databases: Web Of Science (WoS)
+
+:::{layout="[30,70]"}
+:::{}
+
+![](figures/WOS-00.png){width="95%" fig-align="center"}
+
+
+::: {.callout-tip}
+**Tutorials**
+
+1. [🔑 To Acces to WoS](#wos)
+
+:::
+:::
+
+:::{}
+- WoS indexes a wide range of academic publications → **peer-reviewed journals**, conference proceedings, patents...
+- Citation Tracking → 📈
+- Research Analytics → 🏛️🌍
+- Curated Content → 📋 Minimal Criteria of indexation
+- Interdisciplinary Reach → ⚙️Engineering to 👥 Social Sciences
+- Developed by Clarivate → 🔒💰
+
+:::
+:::
+
+
+
+## Web of science → Scientific & Patent databases
+
+![](figures/logos/WoS.png){width="400" fig-align="left"}
+
+::: columns
+::: {.column width="50%"}
+![**Core Collections**](figures/01-UL-databases/03.png){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+![**Derwent Innovations Index**](figures/01-UL-databases/04.png){fig-align="center"}
+:::
+:::
+
+
+
+## Pedagogical objective for you!
+
+:::{layout="[45,-5,45]" layout-valign="top"}
+
+![**Expand the State of the Art via the patent analysis**](figures/TRL-06.png){fig-align="center"}
+
+:::{}
+An overview on the space of patents enabling :  
+
+- Validating the relevance of your concepts 
+- Listing more cited patents 
+- Identifying key players (assignees) and links
+:::
+:::
+
+
+---
+
+:::{.large}
+So..  
+:::
+
+![](https://media.giphy.com/media/xT39Db8zIOODTppk08/giphy-downsized-large.gif){width=50% fig-align=center}
+
+
+
+
+# Presentation of tools
+
+## The canvas of Step 2
+
+::: columns
+::: {.column width="30%"}
+![Goal Step 2a : Define the research questions](figures/Step-2a.jpg){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![Goal: Define research equation](figures/Step-2b.jpg){fig-align="center"}
+:::
+
+::: {.column width="30%"}
+![Goal Step 2c: Visualize & Analize Patent databases](figures/Step-2c.jpg){fig-align="center"}
+:::
+
+:::
+
+
+## Bibliometric mapping: Vosviewer
+
+
+:::{layout="[45,-5,45]" layout-valign="top"}
+
+![Software: VOSviewer](figures/vos/09.jpg){fig-align="center"}
+
+
+:::{}
+[⬇️ Download at <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
+
+::: {.callout-tip}
+**Tutorials**
+
+1. [🔑 VOSviewer: First Steps WoS](#sci-vos)
+
+:::
+:::
+
+:::
+
+
+:::{.footer}
+Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. ](https://doi.org/10.1007/s11192-009-0146-3)
+:::
+
+
+## Step 2a: Research conceptualization
+
+:::{layout="[45,-2,50]" layout-valign="top"}
+
+![](figures/Step-2a.jpg){fig-align="center" width="80%"}
+
+:::{}
+
+**🎯 Goal:**
+
+- Based on the canvas, Identify a **research question** from a general topic that you want to study. 
+    - Define two or three specific research topics that complete the general research question. 
+
+
+```{r, include=TRUE}
+countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+          margin = "5px",)
+```
+
+:::
+:::
+
+
+
+
+# Step 2b: Patent screening and analysis
+
+:::{layout="[45,-2,50]" layout-valign="top"}
+
+![](figures/Step-2b.jpg){fig-align="center"}
+
+:::{}
+**🎯 Goal:**
+
+- Identify the *Concepts* and semantic world of the research questions based on the canva. 
+- Structure a *replicable search equation* based on the 'Venn Diagram' approach. 
+- Use scientific databases [🔗 Web of Science](https://www-webofscience-com.bases-doc.univ-lorraine.fr/wos/woscc/basic-search) 
+
+<br>
+<br>
+<br>
+
+```{r, include=TRUE}
+countdown(minutes = 30, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+          margin = "5px",)
+```
+
+:::
+:::
+
+
+# Step 2c: Comparing the scientific and the Patent domains
+
+
+::: columns
+::: {.column width="50%"}
+![Goal Step 2c : Comparing the scientific and the Patent domains](figures/Step-2c.jpg){fig-align="center"}
+:::
+
+::: {.column width="50%"}
+
+
+**🎯 Goal:** Create a detailed description and facilitate a discussion on the visualizations generated by **VOSviewer**. 
+
+- Focus on interpreting how the clusters identified relate to the research question.
+- Examine key patterns and connections. 
+- Uncover insights into the relationships among concepts and themes. 
+- Make a description enhancing the understanding of the research landscape.
+
+
+```{r, include=TRUE}
+countdown(minutes = 45, seconds = 00, top = 100, right=50, font_size = "4em", padding = "5px",
+          margin = "5px",)
+```
+
+
+:::
+:::
+
+
+
+# List of Tutorials
+
+- [Web Of Science Patent Database](#wos)
+- [VOSviewer: Landscape visualization](#sci-vos)
+
+
+
+
+#  Web Of Science Patent Database {#wos}
+
+##  Web Of Science Patent Database
+
+:::{layout="[50,-2,50]" layout-valign="center"}
+:::{}
+
+- 
+[🔗 Access to UL <br>`https://ent.univ-lorraine.fr/`](https://ent.univ-lorraine.fr/){target="_blank"}
+
+- Use your UL account to access
+
+:::
+
+![](figures/wos/UL-00.png){fig-align="center" width="60%"}
+
+:::
+
+
+
+
+### WoS database → Access to the 'Ressources en Ligne'
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Acces to <br> [`Ressources en Ligne`](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+
+- [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+
+:::
+
+![](figures/01-UL-databases/01.png)
+
+:::
+
+
+
+### WoS database → UL Web of Science
+
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Look for the 'Web of Science' database
+
+- [🔗 Ressources online of the UL](https://bu.univ-lorraine.fr/ressources-en-ligne){target="_blank"}
+:::
+![](figures/01-UL-databases/02.png)
+:::
+
+
+
+## Web of Science Interface → Patent collection 
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Select the <br> **`Derwent Innovation Index`**  <br> database
+
+:::
+![](figures/wos/01.png)
+:::
+
+
+## Web of Science Interface → Simple research mode
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Structure your <br> **`Search Equation`** 
+
+:::
+![](figures/wos/02.png)
+:::
+
+
+## Web of Science Interface → Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- See the <br> **`Results`** and **`Filters`**
+
+:::
+![](figures/wos/03.png)
+:::
+
+
+## Web of Science Interface → Analyse Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- See  <br> **`Analyze Results`**
+- Explore the differents visualisation options
+
+   - Subject areas
+   - Assignee Names
+   - Inventors
+   - etc ...
+
+
+:::
+![](figures/wos/04.png)
+:::
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- See  <br> **`Export Results`** → **`Tab Delimited File`**
+
+:::
+![](figures/wos/05.png)
+:::
+
+
+
+## Web of Science Interface → Sign In
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Make an Account for   <br> **`Web Of Science`** 
+
+:::
+![](figures/wos/06.png)
+:::
+
+
+
+## Web of Science Interface → Sign In
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Use your Account to Connect   <br> **`Web Of Science`** 
+
+:::
+![](figures/wos/07.png)
+:::
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- See  <br> **`Export Results`** → **`Custom Selection`**
+
+:::
+![](figures/wos/08.png)
+:::
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Select  <br> **`All custom elements`** 
+
+:::
+![](figures/wos/09.png)
+:::
+
+
+
+## Web of Science Interface → Export Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Make attention to  <br> **`Export the 1 to 1000 Elements max`** 
+
+:::
+![](figures/wos/10.png)
+:::
+
+
+## Web of Science Interface → Download Results
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Download the database <br> **`<Filename.txt>`** 
+
+This is all for this part 🙂
+:::
+![](figures/wos/11.png)
+:::
+
+
+## Web of Science Interface → Filter Patents
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Filter  the Patent based on a <br> **`*Criteria*`** 
+
+:::
+![](figures/wos/22.png)
+:::
+
+
+
+# Vosviewer: <br>Landscape <br> visualization  {#sci-vos .unnumbered background-image="figures/vos/10.jpg" background-size="65%" background-position="100% 50%" }
+
+Scientific Network visualization
+
+⬇️ [https://www.vosviewer.com/](https://www.vosviewer.com/)
+
+
+
+## Small introduction to VosViewer
+
+:::{layout="[50,50]"}
+:::{}
+- Focus on visualization of scientometric networks
+- Support for large number of data sources
+- Text mining functionality
+- Advanced visualization features
+- Relatively easy to use
+- Limited analysis options
+- Developed at CWTS
+:::
+
+{{< video https://www.youtube.com/embed/9dTWkNRxUtw width="1200" height="500"  >}}
+:::
+
+
+## Purpose of VOSviewer tool
+
+- 🧠 **Knowledge** : 
+   - Use the patent databases to gain a **semantic world of your problematic** based on the **Titles** of the patents.
+
+- ✍**Competence**  : 
+   - Be able to make a **landscape visualisation** of set of documents from a research question.
+
+We use the database download from **Web Of Science** 📜
+
+## VOSviewer → First Steps
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+**🎯 Goal:**
+
+- Load the **`Data`** 
+- Create a  **`Visualisation`** 
+
+:::
+![](figures/article.jpg)
+Analysing *Patents Titles*
+:::
+
+
+## VOSviewer → Load database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Open VOSviewer on your PC
+- Click on **`CREATE`** 
+- Add <br> **`Create a Map based on text data`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/01.png)
+:::
+
+## VOSviewer → Type of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`Bibliographic database file`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/02.png)
+:::
+
+## VOSviewer → Type of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`Web Of Science`** 
+
+- Seek your **`<Filename.txt>`**  on your PC 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/03.png)
+:::
+
+## VOSviewer → Load of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Load your **`<Filename.txt>`**  on your PC 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/04.png)
+:::
+
+
+## VOSviewer → Title Field
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`<Title field>`**  
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/05.png)
+:::
+
+
+## VOSviewer → Title Field
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`Binary Counting`**  
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/06.png)
+:::
+
+
+## VOSviewer → Number of Occurences
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+- Adjuts the <br> **`Number of Occurences`**  
+
+⚠️ Attention to the possible keywords that pass the filter
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/07.png)
+:::
+
+
+## VOSviewer → Keywords
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Listing of the <br> **`Keywords`**  
+
+⚠️ You can erase `keywords` if neccesary 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/08.png)
+:::
+
+
+
+## VOSviewer → Visualization
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select the <br> **`YES`**  
+- **`NEXT`** 
+
+:::
+
+![](figures/vos/09.png)
+:::
+
+
+## VOSviewer → Visualization 🙂
+
+
+:::{layout="[50,-2,50]" layout-valign="top"}
+:::{}
+**Network Visualization**
+
+![](figures/vos/10.png)
+:::
+
+:::{}
+**Density Visualization**
+
+![](figures/vos/11.jpg)
+:::
+
+:::
+
+
+# Vosviewer: Analyzing the Authors {.unnumbered}
+
+![](figures/author.jpg){fig-align="center"}
+
+
+
+## Purpose of VOSviewer tool
+
+1. 🧠 **Knowledge** : 
+   - Use the patent databases to unders a **semantic world of your problematic** based on the **Authors** of the patents.
+
+1. ✍**Competence**  : 
+   - Be able to make a **landscape visualisation** of set of documents from a research question.
+
+We use the database download from **Web Of Science** 📜
+
+## VOSviewer → As made before  {.unnumbered}
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+**🎯 Goal:**
+
+- Load the **`Data`** 
+- Create a  **`CREATE`** 
+- Add <br> **`Create a Map based on BIBLIOGRAPHIC data`** 
+:::
+
+![](figures/vos/12.png)
+
+:::
+
+
+
+## VOSviewer → Type of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`Bibliographic database file`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/13.png)
+:::
+
+## VOSviewer → Type of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+- Select <br> **`Web Of Science`** 
+
+- Seek your **`<Filename.txt>`**  on your PC 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/14.png)
+:::
+
+## VOSviewer → Load of database
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select your <br> **`Co-Authorship`** > **`Author`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/15.png)
+:::
+
+
+## VOSviewer → Filters
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Attention to the filters criteria 
+   - Minimun of Documents
+   - Citations 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/16.png)
+:::
+
+
+## VOSviewer → Counting
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Select <br> **`Binary Counting`**  
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/17.png)
+:::
+
+
+## VOSviewer → Authors to be selected
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+- Adjuts the <br> **`Authors to be selected`**  
+
+⚠️ Attention to the possible keywords that pass the filter
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/18.png)
+:::
+
+
+## VOSviewer → Validation of Connections
+
+:::{layout="[40,-2,60]" layout-valign="center"}
+:::{}
+
+
+- Put **`YES`** 
+
+- **`NEXT`** 
+:::
+
+![](figures/vos/19.png)
+:::
+
+## VOSviewer → Authors Landscape
+
+:::{layout="[50,-2,50]" layout-valign="top"}
+:::{}
+**Network Visualization**
+
+![](figures/vos/20.png)
+:::
+
+:::{}
+**Density Visualization**
+
+![](figures/vos/21.png)
+:::
+
+:::
