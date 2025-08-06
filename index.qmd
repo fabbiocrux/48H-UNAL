@@ -239,45 +239,6 @@ So..
 
 
 
-## Bibliometric mapping: Vosviewer
-
-
-:::{layout="[45,-5,45]" layout-valign="top"}
-
-![Software: VOSviewer](figures/vos/09.jpg){fig-align="center"}
-
-
-:::{}
-[⬇️ Download at <br> https://www.vosviewer.com/](https://www.vosviewer.com/)
-
-::: {.callout-tip}
-**Tutorials**
-
-1. [🔑 VOSviewer: First Steps WoS](#sci-vos)
-
-:::
-:::
-
-:::
-
-
-:::{.footer}
-Source: [Van Eck, N.J., Waltman, L., 2010. Software survey: VOSviewer, a computer program for bibliometric mapping. Scientometrics 84, 523–538. ](https://doi.org/10.1007/s11192-009-0146-3)
-:::
-
-
-
-
-
-
-
-# List of Tutorials
-
-- [Web Of Science Patent Database](#wos)
-- [VOSviewer: Landscape visualization](#sci-vos)
-
-
-
 
 #  Web Of Science Patent Database {#wos}
 
