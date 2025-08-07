@@ -256,7 +256,7 @@ So..
 
 >⚠️ For those Universities that have access!
 
-##  Web Of Science Patent Database
+##  Web Of Science Patent Database {.exclude}
 
 :::{layout="[50,-2,50]" layout-valign="center"}
 :::{}
