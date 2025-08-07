@@ -221,8 +221,8 @@ Source: [Hensen, J., Loonen, R., Archontiki, M., Kanellis, M., 2015. Using build
 
 1. Go to Web of Science and make a research for Patents/Scientific Articles!
 1. Explore the domaine of patents using the WoS tools. 
-1. Select at least **1 pertinent patent** regarding your Idea!
- at least **1 pertinent patent** regarding your Idea!
+1. Select at least **1 pertinent patent/scientific article**   regarding your Idea!
+ 
 
 ---
 
